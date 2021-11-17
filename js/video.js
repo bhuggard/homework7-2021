@@ -1,6 +1,5 @@
 var vid = document.querySelector(".video");
 
-
 window.addEventListener("load", function() {
 	console.log("Good job opening the window")
 });
@@ -56,5 +55,15 @@ document.querySelector("#slider").addEventListener('change', function(){
 
 });
 
+document.getElementById("vintage").addEventListener('click', function(){
+	vid.setAttribute ('style', 	
+	'filter: grayscale(100%)');
+	vid.setAttribute ('style', 	
+	'width:75%');
+	vid.setAttribute ('style', 	
+	'border:5px double grey');
+});
 
-
+document.getElementById("vintage").addEventListener('click', function(){
+	console.log('oldSchool')
+});
