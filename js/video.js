@@ -56,14 +56,9 @@ document.querySelector("#slider").addEventListener('change', function(){
 });
 
 document.getElementById("vintage").addEventListener('click', function(){
-	vid.setAttribute ('style', 	
-	'filter: grayscale(100%)');
-	vid.setAttribute ('style', 	
-	'width:75%');
-	vid.setAttribute ('style', 	
-	'border:5px double grey');
+	vid.classList.add('oldSchool');
 });
 
-document.getElementById("vintage").addEventListener('click', function(){
-	console.log('oldSchool')
+document.getElementById("orig").addEventListener('click', function(){
+	vid.classList.remove('oldSchool');
 });
