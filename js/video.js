@@ -56,6 +56,6 @@ document.querySelector("#vintage").addEventListener('click', function(){
 	vid.classList.add('oldSchool');
 });
 
-document.getElementById("orig").addEventListener('click', function(){
+document.querySelector("#orig").addEventListener('click', function(){
 	vid.classList.remove('oldSchool');
 });
