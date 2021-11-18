@@ -53,7 +53,7 @@ document.querySelector("#slider").addEventListener('change', function(){
 });
 
 document.getElementById("vintage").addEventListener('click', function(){
-	vid.classList('oldSchool');
+	vid.classList.add('oldSchool');
 });
 
 document.getElementById("orig").addEventListener('click', function(){
